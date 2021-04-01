@@ -1,10 +1,10 @@
 {
-  "name": "goit-react-hw-01-components",
+  "name": "goit-react-hw-02-feedback",
   "repository": {
     "type": "git",
-    "url": "git+https://Di.ua.github.io/goit-react-hw-01-components.git"
+    "url": "git+https://Di.ua.github.io/goit-react-hw-02-feedback.git"
   },
-  "homepage": "https://Di.ua.github.io/goit-react-hw-01-components/",
+  "homepage": "https://Di.ua.github.io/goit-react-hw-02-feedback/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
