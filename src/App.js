@@ -19,17 +19,22 @@ class App extends Component {
       [event.target.name]: prevState[event.target.name] + 1,
     }));
   };
+
+
   countTotalFeedback = () => {
     return this.state.good + this.state.neutral + this.state.bad;
   };
+
   countPositiveFeedbackPercentage = () => {
     return Math.floor((this.state.good / this.countTotalFeedback()) * 100);
   };
+
+
   render() {
     return (
       <>
         <Section title="Please leave feedback">
-          <FeedbackChoice onLeaveFeedback={this.addFeedback}></FeedbackChoice>
+          <FeedbackChoice onLeaveFeedback={this.addFeedback} />
         </Section>
         <Section title="Statistics">
           {this.countTotalFeedback() > 0 ? (
