@@ -44,9 +44,9 @@ class App extends Component {
               bad={this.state.bad}
               total={this.countTotalFeedback()}
               positivePercentage={this.countPositiveFeedbackPercentage()}
-            ></Statistics>
+            />
           ) : (
-            <Notification message="No feedback given"></Notification>
+            <Notification message="No feedback given"/>
           )}
         </Section>
       </>
